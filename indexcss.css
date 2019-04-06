@@ -1,0 +1,164 @@
+header
+{
+	height:100px;
+	background-color: #4CAF50;
+	width:100%;
+	padding:5px;
+	text-align: center;
+
+}
+#displayName
+{ 
+	float:center;
+	color:yellow;
+	font-weight:bold;
+	text-shadow: -1px 3px black;
+
+}
+#displayName:hover
+{
+	font-size: 34px;
+	font-weight:bold;
+	cursor:none;
+	text-shadow:3px 2px black;
+	color:white;
+}
+#desctiption:hover
+{
+	display: none;
+	position: absolute;
+	padding:5px;
+}
+nav
+{
+	float:left;
+	width:400px;
+	height:680px;
+	background-image: linear-gradient( black, blue, black,black);
+}
+/*#navList
+{
+	list-style: none;
+}*/
+section
+{
+	float:left;
+	width:70%;
+	height:200px;
+
+}
+footer
+{
+	/*height:10px;*/
+	display:block;
+	bottom: 0px;
+	left:0px;
+}
+#footerNote
+{
+	text-align:center;
+
+
+}
+/*button 
+{
+	padding:18px;
+	border:18px;
+	color:white;
+	background-color:yellow;
+	width:40px;
+
+}*/
+#idImage
+{
+  border-radius: 50%;
+  width:180px;
+  float:center;
+ /* padding:55px;*/
+  margin-left: 95px;
+  margin-top:45px;
+  margin-right:45px;
+
+}
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 40px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 400px;
+  display: block;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+#imageCaption
+{
+	/*float:center;*/
+	color:white;
+	text-align: center;
+	padding:5px;
+	text-shadow: 3px 2px black;
+
+}
+#details-table td,th
+{
+	/*border-color: green;
+	border:1px;
+	padding:5px;
+	float:center;*/
+	border-spacing: 5px;
+	border-collapse: collapse;
+	padding:35px;
+	border:2px solid green;
+}
+#details-table
+{
+	padding:155px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background: #007bb5;
+  color: white;
+}
+#socialMedia
+{
+	float:center;
+	padding:20px;
+}
+
+
+
